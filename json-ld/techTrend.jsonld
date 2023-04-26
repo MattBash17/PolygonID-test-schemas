@@ -1,1 +1,25 @@
-
+{
+    "@context": [
+        {
+          "@version": 1.1,
+          "@protected": true,
+          "id": "@id",
+          "type": "@type",
+          "WhatTechTrend": {
+            "@id": "https://raw.githubusercontent.com/MattBash17/PolygonID-test-schemas/main/json-ld/techTrend.jsonld#WhatTechTrend",
+            "@context": {
+              "@version": 1.1,
+              "@protected": true,
+              "id": "@id",
+              "type": "@type",
+              "vocab": "https://raw.githubusercontent.com/MattBash17/PolygonID-test-schemas/main/Vocabulary/techTrend-vocab.md#",
+              "xsd": "http://www.w3.org/2001/XMLSchema#",
+              "techTrend": {
+                "@id": "vocab:techTrend",
+                "@type": "xsd:integer"
+              }
+            }
+          }
+        }
+      ]
+    }
