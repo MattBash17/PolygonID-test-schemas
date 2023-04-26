@@ -5,17 +5,25 @@
       "@protected": true,
       "id": "@id",
       "type": "@type",
-      "IsAdmin": {
-        "@id": "https://raw.githubusercontent.com/MattBash17/PolygonID-test-schemas/main/json-ld/adminStatus.jsonld#IsAdmin",
+      "AccessRights": {
+        "@id": "https://raw.githubusercontent.com/MattBash17/PolygonID-test-schemas/main/json-ld/AccessRights.jsonld#AccessRights",
         "@context": {
           "@version": 1.1,
           "@protected": true,
           "id": "@id",
           "type": "@type",
-          "vocab": "https://raw.githubusercontent.com/MattBash17/PolygonID-test-schemas/main/Vocabulary/adminStatus-vocab.md#",
+          "vocab": "https://raw.githubusercontent.com/MattBash17/PolygonID-test-schemas/main/Vocabulary/AccessRights-vocab.md#",
           "xsd": "http://www.w3.org/2001/XMLSchema#",
-          "adminStatus": {
-            "@id": "vocab:adminStatus",
+          "testAccess": {
+            "@id": "vocab:testAccess",
+            "@type": "xsd:boolean"
+          },
+          "adminGroup": {
+            "@id": "vocab:adminGroup",
+            "@type": "xsd:boolean"
+          },
+          "userID": {
+            "@id": "vocab:userID",
             "@type": "xsd:integer"
           }
         }

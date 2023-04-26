@@ -3,8 +3,8 @@
     "type": "object",
     "$metadata": {
       "uris": {
-        "jsonLdContext": "https://raw.githubusercontent.com/MattBash17/PolygonID-test-schemas/main/json-ld/adminStatus.jsonld",
-        "jsonSchema": "https://raw.githubusercontent.com/MattBash17/PolygonID-test-schemas/main/json/adminStatus.json"
+        "jsonLdContext": "https://raw.githubusercontent.com/MattBash17/PolygonID-test-schemas/main/json-ld/AccessRights.jsonld",
+        "jsonSchema": "https://raw.githubusercontent.com/MattBash17/PolygonID-test-schemas/main/json/AccessRights.json"
       }
     },
     "required": [
@@ -106,7 +106,9 @@
         "type": "object",
         "required": [
           "id",
-          "adminStatus"
+          "testAccess",
+          "adminGroup",
+          "userID"
         ],
         "properties": {
           "id": {
@@ -114,7 +116,13 @@
             "type": "string",
             "format": "uri"
           },
-          "adminStatus": {
+          "testAccess": {
+            "type": "boolean"
+          },
+          "adminGroup": {
+            "type": "boolean"
+          },
+          "userID": {
             "type": "integer"
           }
         }
