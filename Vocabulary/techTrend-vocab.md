@@ -1,5 +1,5 @@
 #   techTrend
-What technology trend is the user working on?
+What technology trend is the user working on
 
 1 - DA
 2 - DC
