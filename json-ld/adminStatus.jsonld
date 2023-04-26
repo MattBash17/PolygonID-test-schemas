@@ -14,8 +14,8 @@
             "type": "@type",
             "vocab": "https://raw.githubusercontent.com/MattBash17/PolygonID-test-schemas/main/Vocabulary/adminStatus-vocab.md#",
             "xsd": "http://www.w3.org/2001/XMLSchema#",
-            "role": {
-              "@id": "vocab:role",
+            "adminStatus": {
+              "@id": "vocab:adminStatus",
               "@type": "xsd:integer"
             }
           }

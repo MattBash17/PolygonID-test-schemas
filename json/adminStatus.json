@@ -106,7 +106,7 @@
         "type": "object",
         "required": [
           "id",
-          "role"
+          "adminStatus"
         ],
         "properties": {
           "id": {
@@ -114,7 +114,7 @@
             "type": "string",
             "format": "uri"
           },
-          "role": {
+          "adminStatus": {
             "type": "integer"
           }
         }
