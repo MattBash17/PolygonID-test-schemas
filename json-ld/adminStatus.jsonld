@@ -6,13 +6,13 @@
         "id": "@id",
         "type": "@type",
         "adminStatus": {
-          "@id": "https://raw.githubusercontent.com/MattBash17/PolygonID-test-schemas/main/json-ld/adminStatus.jsonld#adminStatus",
+          "@id": "https://raw.githubusercontent.com/MattBash17/PolygonID-test-schemas/main/json-ld/adminStatus.jsonld",
           "@context": {
             "@version": 1.1,
             "@protected": true,
             "id": "@id",
             "type": "@type",
-            "vocab": "https://raw.githubusercontent.com/MattBash17/PolygonID-test-schemas/main/Vocabulary/adminStatus-vocab.md#",
+            "vocab": "https://raw.githubusercontent.com/MattBash17/PolygonID-test-schemas/main/Vocabulary/adminStatus-vocab.md",
             "xsd": "http://www.w3.org/2001/XMLSchema#",
             "adminStatus": {
               "@id": "vocab:adminStatus",
