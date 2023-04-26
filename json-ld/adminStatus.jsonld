@@ -1,1 +1,25 @@
-
+{
+    "@context": [
+      {
+        "@version": 1.1,
+        "@protected": true,
+        "id": "@id",
+        "type": "@type",
+        "adminStatus": {
+          "@id": "https://raw.githubusercontent.com/MattBash17/PolygonID-test-schemas/main/json-ld/adminStatus.jsonld#adminStatus",
+          "@context": {
+            "@version": 1.1,
+            "@protected": true,
+            "id": "@id",
+            "type": "@type",
+            "vocab": "https://raw.githubusercontent.com/MattBash17/PolygonID-test-schemas/main/Vocabulary/adminStatus-vocab.md#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "role": {
+              "@id": "vocab:role",
+              "@type": "xsd:integer"
+            }
+          }
+        }
+      }
+    ]
+  }
