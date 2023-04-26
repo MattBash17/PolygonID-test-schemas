@@ -1,5 +1,5 @@
 #   adminStatus
-Are there admin priviledges attached to the user's account?
+Is the user admin
 
 0 - no
 1 - yes
