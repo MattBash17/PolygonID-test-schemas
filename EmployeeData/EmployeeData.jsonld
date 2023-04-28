@@ -1,25 +1,48 @@
 {
-    "@context": [
-      {
-        "@version": 1.1,
-        "@protected": true,
-        "id": "@id",
-        "type": "@type",
-        "ProofOfDaoLongevity": {
-          "@id": "https://raw.githubusercontent.com/0xPolygonID/tutorial-examples/main/credential-schema/proof-of-dao-longevity.jsonld#ProofOfDaoLongevity",
-          "@context": {
-            "@version": 1.1,
-            "@protected": true,
-            "id": "@id",
-            "type": "@type",
-            "vocab": "https://github.com/0xPolygonID/tutorial-examples/blob/main/credential-schema/proof-of-dao-longevity-vocab.md#",
-            "xsd": "http://www.w3.org/2001/XMLSchema#",
-            "entryDate": {
-              "@id": "vocab:entryDate",
-              "@type": "xsd:integer"
-            }
+  "@context": [
+    {
+      "@version": 1.1,
+      "@protected": true,
+      "id": "@id",
+      "type": "@type",
+      "EmployerCredential": {
+        "@id": "https://raw.githubusercontent.com/MattBash17/PolygonID-test-schemas/main/EmployeeData/EmployeeData.jsonld#EmployerCredential",
+        "@context": {
+          "@version": 1.1,
+          "@protected": true,
+          "id": "@id",
+          "type": "@type",
+          "vocab": "https://raw.githubusercontent.com/MattBash17/PolygonID-test-schemas/main/EmployeeData/EmployeeData-vocab.md#",
+          "xsd": "http://www.w3.org/2001/XMLSchema#",
+          "employer": {
+            "@id": "vocab:employer",
+            "@type": "xsd:string"
+          },
+          "hireDate": {
+            "@id": "vocab:hireDate",
+            "@type": "xsd:integer"
+          }
+        }
+      },
+      "SalaryCredential": {
+        "@id": "https://raw.githubusercontent.com/MattBash17/PolygonID-test-schemas/main/EmployeeData/EmployeeData.jsonld#SalaryCredential",
+        "@context": {
+          "@version": 1.1,
+          "@protected": true,
+          "id": "@id",
+          "type": "@type",
+          "vocab": "https://raw.githubusercontent.com/MattBash17/PolygonID-test-schemas/main/EmployeeData/EmployeeData-vocab.md#",
+          "xsd": "http://www.w3.org/2001/XMLSchema#",
+          "level": {
+            "@id": "vocab:level",
+            "@type": "xsd:integer"
+          },
+          "salary": {
+            "@id": "vocab:salary",
+            "@type": "xsd:integer"
           }
         }
       }
-    ]
-  }
+    }
+  ]
+}
