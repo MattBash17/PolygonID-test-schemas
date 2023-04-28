@@ -5,8 +5,8 @@
       "@protected": true,
       "id": "@id",
       "type": "@type",
-      "EmployerCredential": {
-        "@id": "https://raw.githubusercontent.com/MattBash17/PolygonID-test-schemas/main/EmployeeData/EmployeeData.jsonld#EmployerCredential",
+      "EmployeeData": {
+        "@id": "https://raw.githubusercontent.com/MattBash17/PolygonID-test-schemas/main/EmployeeData/EmployeeData.jsonld#EmployeeData",
         "@context": {
           "@version": 1.1,
           "@protected": true,
@@ -20,25 +20,6 @@
           },
           "hireDate": {
             "@id": "vocab:hireDate",
-            "@type": "xsd:integer"
-          }
-        }
-      },
-      "SalaryCredential": {
-        "@id": "https://raw.githubusercontent.com/MattBash17/PolygonID-test-schemas/main/EmployeeData/EmployeeData.jsonld#SalaryCredential",
-        "@context": {
-          "@version": 1.1,
-          "@protected": true,
-          "id": "@id",
-          "type": "@type",
-          "vocab": "https://raw.githubusercontent.com/MattBash17/PolygonID-test-schemas/main/EmployeeData/EmployeeData-vocab.md#",
-          "xsd": "http://www.w3.org/2001/XMLSchema#",
-          "level": {
-            "@id": "vocab:level",
-            "@type": "xsd:integer"
-          },
-          "salary": {
-            "@id": "vocab:salary",
             "@type": "xsd:integer"
           }
         }

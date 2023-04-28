@@ -13,7 +13,7 @@ The nationality of the subject expressed as ISO numeric code
 #   documentType
 Type of identity document as 1 - ID, 2 - Passport
 
-#   documentNumber
+#   documentCode
 Unique identification number of the document
 
 #   employer
