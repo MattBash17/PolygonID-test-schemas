@@ -1,3 +1,4 @@
+<!-->
 #   firstName
 The first name of the subject
 
@@ -33,9 +34,10 @@ Name of the position covered by the subject
 
 #   level
 Position level as 1 - junior, 2 - medior, 3 - senior
-
+-->
 #   salary
 Describes the gross annual salary of the subject
-
+<!--
 #   hrVerified
 Describes if everything is in order in HR systems, boolean
+-->
