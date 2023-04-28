@@ -33,3 +33,6 @@ Position level as 1 - junior, 2 - medior, 3 - senior
 
 #   salary
 Describes the gross annual salary of the subject
+
+#   hrVerified
+Describes if everything is in order in HR systems
