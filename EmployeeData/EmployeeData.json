@@ -139,6 +139,9 @@
           "nationality": {
             "type": "integer"
           },
+          "documentType": {
+            "type": "integer"
+          },
           "documentCode": {
             "type": "string"
           },

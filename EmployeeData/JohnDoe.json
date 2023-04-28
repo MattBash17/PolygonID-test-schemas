@@ -1,0 +1,16 @@
+{
+    "firstName": "John",
+    "familyName": "Doe",
+    "birthday": "19901201",
+    "nationality": "528",
+    "documentType": "2",
+    "documentCode": "TEST0123",
+    "employer": "TechBank ltd.",
+    "hireDate": "20220202",
+    "department": "Marketing",
+    "team": "Partner Marketing",
+    "position": "Campaign Manager - Partner Marketing",
+    "level": "2",
+    "salary": "77000",
+    "hrVerified": "true"
+}
