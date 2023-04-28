@@ -16,6 +16,9 @@ Type of identity document as 1 - ID, 2 - Passport
 #   documentNumber
 Unique identification number of the document
 
+#   employer
+Legal name of the employer company
+
 #   hireDate
 The date of hiring expressed as yyyymmdd
 
