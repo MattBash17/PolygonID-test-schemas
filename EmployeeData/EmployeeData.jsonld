@@ -14,6 +14,30 @@
           "type": "@type",
           "vocab": "https://raw.githubusercontent.com/MattBash17/PolygonID-test-schemas/main/EmployeeData/EmployeeData-vocab.md#",
           "xsd": "http://www.w3.org/2001/XMLSchema#",
+          "firstName": {
+            "@id": "vocab:firstName",
+            "@type": "xsd:string"
+          },
+          "familyName": {
+            "@id": "vocab:familyName",
+            "@type": "xsd:string"
+          },
+          "birthday": {
+            "@id": "vocab:birthday",
+            "@type": "xsd:integer"
+          },
+          "nationality": {
+            "@id": "vocab:nationality",
+            "@type": "xsd:integer"
+          },
+          "documentType": {
+            "@id": "vocab:documentType",
+            "@type": "xsd:integer"
+          },
+          "documentCode": {
+            "@id": "vocab:documentCode",
+            "@type": "xsd:string"
+          },
           "employer": {
             "@id": "vocab:employer",
             "@type": "xsd:string"
@@ -21,6 +45,30 @@
           "hireDate": {
             "@id": "vocab:hireDate",
             "@type": "xsd:integer"
+          },
+          "department": {
+            "@id": "vocab:department",
+            "@type": "xsd:string"
+          },
+          "team": {
+            "@id": "vocab:team",
+            "@type": "xsd:string"
+          },
+          "position": {
+            "@id": "vocab:position",
+            "@type": "xsd:string"
+          },
+          "level": {
+            "@id": "vocab:level",
+            "@type": "xsd:integer"
+          },
+          "salary": {
+            "@id": "vocab:salary",
+            "@type": "xsd:integer"
+          },
+          "hrVerified": {
+            "@id": "vocab:hrVerified",
+            "@type": "xsd:boolean"
           }
         }
       }
